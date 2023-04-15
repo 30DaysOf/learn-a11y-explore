@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/index.html</loc>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/jon.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/head-wand.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/mouth-stick.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/single-switch.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/screen-reader.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://30daysof.github.io/learn-a11y-explore/static/curb-cut.jpeg</image:loc>
+    </image:image>
+    <lastmod>2022-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/accessible-html/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/aria/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>
+https://30daysof.github.io/learn-a11y-explore/exercises/1.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>
+https://30daysof.github.io/learn-a11y-explore/exercises/2.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>
+https://30daysof.github.io/learn-a11y-explore/exercises/3.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>
+https://30daysof.github.io/learn-a11y-explore/exercises/4.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>
+https://30daysof.github.io/learn-a11y-explore/exercises/5.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/focus-management/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/resources/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/screen-readers/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/tooling/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://30daysof.github.io/learn-a11y-explore/visual-considerations/index.html</loc>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+
+</urlset>
+
+
