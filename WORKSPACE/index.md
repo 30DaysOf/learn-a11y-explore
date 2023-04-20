@@ -4,11 +4,11 @@
 
 ---
 
-_This page_ documents my learning journey using that resource, with an extension focused on _exploring_ ideas to apply learnings to my projects using automated testing with Playwright.
+_This page_ documents my learning journey with the resource and my explorations with Playwright in this context.
 
-If you want to learn about accessibility, I encourage you to visit and fork the [original repo](https://github.com/jkup/learn-a11y) instead.
-
-If you want to explore automated testing ideas alongside me, [star or watch this repo]( https://github.com/30DaysOf/learn-a11y-explore) for updates, and [use issues](https://github.com/30DaysOf/learn-a11y-explore/issues/new) to send me feedback (e.g., report bugs, ask questions or request changes).
+ * Want to learn about a11y? Fork the [original repo](https://github.com/jkup/learn-a11y) and check out the author's course on [Frontend Masters](https://frontendmasters.com/courses/accessibility-v2)!
+ * Want to learn about Playwright usage for a11y? [Star or watch this repo]( https://github.com/30DaysOf/learn-a11y-explore) for my updates and articles.
+ * Have feedback (e.g., report bugs, ask questions or request changes)? [Submit an issue](https://github.com/30DaysOf/learn-a11y-explore/issues/new) on this repo.
 
 ---
 
@@ -32,34 +32,34 @@ The original repo built and deployed the project to Netlify. I am instead deploy
 - [X] - Validated [Actions were activated](https://github.com/30DaysOf/learn-a11y-explore/actions) to deploy project to GitHub Pages.
 - [X] - Validated that [GitHub Pages Site](https://30daysof.github.io/learn-a11y-explore/) was live and deployed correctly.
 
-### 2.2 Add EXPLORE.md for notes
+### 2.2 Add WORKSPACE for my updates
 
-Added [an WORKSPACE folder](./index.md) (containing this file with notes) to capture exploratory ideas. This should be visible at the [/WORKSPACE](https://30daysof.github.io/learn-a11y-explore/WORKSPACE) endpoint on the website.
+Added [a WORKSPACE folder](./index.md) that should be visible at the [/WORKSPACE](https://30daysof.github.io/learn-a11y-explore/WORKSPACE) endpoint on the website. All exploration notes and examples will be created within this folder.
 
 ### 2.3 Add sitemap.xml
 
 Sitemaps are typically added to support web crawlers that index sites for search engines. However, they also have value for _automated testing_ as a list of target resources for site that should be prioritized when auditing/testing for performance, SEO, accessibility etc. 
 
-Adding an [EXPLORE/sitemap.xml](./sitemap.xml) file that follows the [recommended build practices](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#text) and will come in handy later when exploring Playwright tests. I'm electing to use `.xml` rather than simple `.txt` format since we also want the ability to support [image sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps) and other sitemap extensions. _This sitemap is not complete, but is functionally correct_.
+ * Added [WORKSPACE/sitemap.xml](./sitemap.xml) manually following [recommended build practices](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#text). Using `.xml` (vs `.txt`) format so I can explore [image sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps) and extensions later. _This sitemap is not complete, but is functionally correct_.
 
 ### 2.4 Add automated-testing
 
 At this point, we have a _deployed website_ on GitHub pages and its _source files_ in GitHub (on the master branch). The course teaches us best practices for _authoring_ accessible websites. In parallel, _automated testing_ can help us detect and report on accessibility issues in our code (in-development) or website (post-deployment) - helping us then apply these learnings in practice.
 
-Adding the [automatica11y/index.md](automatica11y/index.md) subfolder to capture exploration of tools, resources and results, from _automated testing experiments_.
+ * Added [automatica11y/index.md](automatica11y/index.md) subfolder to capture exploration of tools, resources and results, from _automated testing experiments_.
+
+> Setup done! Time to continue with the learn-a11y course!
 
 ---
 
 ## 3. Learning Notes
 
-This section will document my notes and insights from walking through the learn-a11y exercises. 
-Primary goal is to document best practices and ideas for how I can apply these to my real-world projects..
+> _This section contains my notes from the learn-a11y course_
 
 ---
 
 ## 4. Testing Notes
 
-This section will document my notes and insights from adding Playwright and automating tests to detect and report a11y issues in a way that aligns with the learnings above. 
-Primary goal is to create a _reusable test specification_ I can then customize for various real-world projects, to detect a11y issues.
+> _This section documents notes from my Playwright integration experiments_.
 
 ---
